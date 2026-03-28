@@ -1,0 +1,4 @@
+subscription_id     = "your-subscription-id"
+resource_group_name = "your-resource-group-name"
+location            = "eastus"
+environment         = "dev"
