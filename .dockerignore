@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+.env.*
+**/.terraform
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,60 @@
+# -Terraform
+
+# Diretório gerado pelo terraform init — dependências e plugins
+.terraform/
+
+# Arquivos de state 
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Arquivo de variáveis com valores
+terraform.tfvars
+
+# Plano gerado
+*.tfplan
+*.plan
+
+
+# Credenciais e Secrets
+
+# Variáveis de ambiente locais
+.env
+.env.*
+
+# Arquivos de credenciais Azure
+*.json
+azure.conf
+
+
+# -Docker
+
+# Arquivos gerados por containers locais
+.docker/
+
+
+# Sistema Operacional
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+
+# Editores e IDEs
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
