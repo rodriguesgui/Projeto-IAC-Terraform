@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "main" {
 }
 
 module "sql_database" {
-  source = ".modules/sql_database"
+  source = "./modules/sql_database"
 
   resouce_group_name = azuremrm_resource_group.main.name
   location           = var.location
@@ -20,7 +20,7 @@ module "sql_database" {
 }
 
 module "nosql_database" {
-  source = ".modules/nosql_database"
+  source = "./modules/nosql_database"
 
   resouce_group_name = azuremrm_resource_group.main.name
   location           = var.location
