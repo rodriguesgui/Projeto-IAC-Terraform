@@ -10,7 +10,7 @@ variable "location" {
   
 }
 
-variable "enviroment" {
+variable "environment" {
     description = "Ambiente do Resource Group onde o Cosmos DB vai ser criado"
     type = string
 }

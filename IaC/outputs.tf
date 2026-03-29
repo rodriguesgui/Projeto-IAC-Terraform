@@ -8,7 +8,7 @@ output "location" {
     value = azurerm_resource_group.main.location
 }
 
-output "enviroment" {
+output "environment" {
     description = "Ambiente do Resource Group criado"
     value = var.environment
 }
