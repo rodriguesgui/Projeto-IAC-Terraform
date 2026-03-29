@@ -12,5 +12,7 @@ terraform {
 provider "azurerm" {
   subscription_id = var.subscription_id
 
+  use_cli = false
+
   features {}
 }
