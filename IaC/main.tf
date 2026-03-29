@@ -13,9 +13,9 @@ module "sql_database" {
   source = ".modules/sql_database"
 
   resouce_group_name = azuremrm_resource_group.main.name
-  location = var.location
-  environment = var.environment
-  sql_admin_login = var.sql_admin_login
+  location           = var.location
+  environment        = var.environment
+  sql_admin_login    = var.sql_admin_login
   sql_admin_password = var.sql_admin_password
 }
 
@@ -23,6 +23,6 @@ module "nosql_database" {
   source = ".modules/nosql_database"
 
   resouce_group_name = azuremrm_resource_group.main.name
-  location = var.location
-  environment = var.environment
+  location           = var.location
+  environment        = var.environment
 }
