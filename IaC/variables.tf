@@ -32,3 +32,21 @@ variable "sql_admin_password" {
   type        = string
   sensitive   = true
 }
+
+variable "client_id" {
+  description = "Client ID do Service Principal"
+  type        = string
+  sensitive   = true
+}
+
+variable "client_secret" {
+  description = "Client Secret do Service Principal"
+  type        = string
+  sensitive   = true
+}
+
+variable "tenant_id" {
+  description = "Tenant ID do Azure AD"
+  type        = string
+  sensitive   = true
+}
