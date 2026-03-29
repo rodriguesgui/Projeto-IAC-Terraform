@@ -15,3 +15,21 @@ variable "sql_admin_password" {
   type        = string
   sensitive   = true
 }
+
+variable "resource_group_name" {
+  description = "Nome do Resource Group"
+  type        = string
+  default     = "rg-projeto-iac-dev"
+}
+
+variable "location" {
+  description = "Região Azure"
+  type        = string
+  default     = "eastus"
+}
+
+variable "environment" {
+  description = "Ambiente de execução"
+  type        = string
+  default     = "dev"
+}
