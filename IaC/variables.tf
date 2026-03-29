@@ -20,3 +20,15 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "sql_admin_login" {
+  description = "login do adm do sql server"
+  type        = string
+  sensitive   = true
+}
+
+variable "sql_admin_password" {
+  description = "senha do adm do sql server"
+  type        = string
+  sensitive   = true
+}
