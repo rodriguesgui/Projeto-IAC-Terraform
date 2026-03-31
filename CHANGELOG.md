@@ -18,7 +18,9 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - State remoto configurado via Azure Storage Account em `backend.tf`
 - Ambiente de execução isolado via Docker com Azure CLI e Terraform
 - Makefile com atalhos para build, run e destroy
-- Pipeline de CI/CD com GitHub Actions
+- Pipeline de CI/CD com GitHub Actions — validate no PR, apply no merge
+- Credenciais gerenciadas via GitHub Secrets
+- Infraestrutura provisionada na Azure via CI/CD automatizado
 - Documentação inicial: README, CHANGELOG e decisions.md
 
 ---
