@@ -1,5 +1,5 @@
 resource "azurerm_mssql_server" "main" {
-  name                         = "sql-server-${var.environment}"
+  name                         = "sql-server-iac-${var.environment}-${substr(md5(var.resource_group_name), 0, 6)}"
   resource_group_name          = var.resource_group_name
   location                     = var.location
   version                      = "12.0"
